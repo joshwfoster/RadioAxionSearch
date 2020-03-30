@@ -27,4 +27,4 @@ This data release requires no installations and may be directly cloned from gith
 
 ## Examples
 
-Annotated examples can be found [here](https://github.com/joshwfoster/RadioAxionSearch).
+Annotated examples can be found [here](https://github.com/joshwfoster/RadioAxionSearch/tree/master/examples).
