@@ -1,13 +1,4 @@
-import sys, os, h5py, corner
 import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-from scipy import stats, signal, ndimage, interpolate
-
-import astropy
-from astropy.io import fits
-
-
 
 ##################################################
 ###   Load the Data at Specified Downbinning   ###
