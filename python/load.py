@@ -1,7 +1,11 @@
-import os
+import sys, os, h5py, corner
 import numpy as np
-from scipy import ndimage, interpolate
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+from scipy import stats, signal, ndimage, interpolate
 
+import astropy
+from astropy.io import fits
 
 ###################################################################
 ###   Get the Expected Flux Density from a Calibration Source   ###
@@ -170,5 +174,9 @@ def downsample_stack(stack, downsample, shift = 0):
     return out
 
 
-def load(data_dir, data_tag, downsample = 1, shift = 0):
-    downsample_stack(get_stack(data_dir, data_tag), downsample, shift = shift)
+def load(data_dir, data_tag, downsample = 1, do_shift = False):
+    if do_shift:
+        return downsample_stack(get_stack(data_dir, data_tag), downsample, shift = downsample / 2)
+
+    else:
+        return downsample_stack(get_stack(data_dir, data_tag), downsample)
