@@ -12,7 +12,7 @@ RadioAxionSearch is a public data release of results from a  search for signals 
 ## Authors
 
 - Joshua Foster; fosterjw at umich dot edu
-- Yonatan Kahn; 
+- Yonatan Kahn
 - Oscar Macias
 - Zhiquan Sun
 - Christoph Weniger
