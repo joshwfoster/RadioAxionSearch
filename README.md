@@ -2,12 +2,12 @@
 
 **A Public Data Release of Observational Data and Analysis Results**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2003.xxxxx%20-green.svg)](https://arxiv.org/abs/2003.xxxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2004.00011%20-green.svg)](https://arxiv.org/abs/2004.00011)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Sensitivity](https://github.com/joshwfoster/RadioAxionSearch/blob/master/examples/Axion_Constraints.png "Fiducial Axion Constraints")
 
-RadioAxionSearch is a public data release of results from a  search for signals axion-to-photon conversion in neutron star magnetospheres appearing as spectral lines at radio frequencies. Processed observational data and complete analysis results are made available in this repository. The full, unprocessed observational data may be made available offline at request. If these data contribute to published work, please cite the original reference [2003.xxxxx](https://arxiv.org/abs/2003.xxxxx). 
+RadioAxionSearch is a public data release of results from a  search for signals axion-to-photon conversion in neutron star magnetospheres appearing as spectral lines at radio frequencies. Processed observational data and complete analysis results are made available in this repository. The full, unprocessed observational data may be made available offline at request. If these data contribute to published work, please cite the original reference [2004.00011](https://arxiv.org/abs/2004.00011). 
 
 ## Authors
 
